@@ -1,0 +1,39 @@
+.contenedorfoot{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "foot foot foot foot";
+    .foot{
+    grid-area: foot;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 0;
+    }
+    .txtred{
+        font-size: 20px;
+        color: white;
+       
+    }
+    .iconos{
+        .bi-facebook, .bi-instagram, .bi-person-lines-fill{
+            text-align: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            color: white;
+          }
+    .pago{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }     
+    
+    
+
+    }
+
+
+}

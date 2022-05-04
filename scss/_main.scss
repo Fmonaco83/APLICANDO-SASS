@@ -13,6 +13,10 @@
     filter: sepia(.5);
    }
 }
+// EXTEND
+.img2{
+    @extend.img1;
+}
 .cajaTex{
     .text1{
         background-color: rgb(201, 160, 160);

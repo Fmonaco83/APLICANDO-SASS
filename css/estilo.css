@@ -26,13 +26,13 @@
   display: flex;
   justify-content: space-around; }
 
-.img1 {
+.img1, .img2 {
   width: 100%;
   height: 100%;
   border-radius: 6px;
   overflow: hidden;
   transition: all 800ms; }
-  .img1:hover {
+  .img1:hover, .img2:hover {
     transform: scale(0.9);
     filter: sepia(0.5); }
 
@@ -95,15 +95,34 @@
   .contenedorfoot .txtred {
     font-size: 20px;
     color: white; }
-  .contenedorfoot .iconos .bi-facebook, .contenedorfoot .iconos .bi-instagram, .contenedorfoot .iconos .bi-person-lines-fill {
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: white; }
-  .contenedorfoot .iconos .pago {
+  .contenedorfoot .pago {
     display: flex;
     justify-content: start;
     align-items: center; }
+
+.bi-instagram {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 10px;
+  color: white; }
+  .bi-instagram:hover {
+    color: .bi-instagram:hover hover; }
+
+.bi-facebook {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 10px;
+  color: white; }
+  .bi-facebook:hover {
+    color: .bi-facebook:hover hover; }
+
+.bi-person-lines-fill {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 10px;
+  color: white; }
+  .bi-person-lines-fill:hover {
+    color: .bi-person-lines-fill:hover hover; }
 
 body {
   background-color: #f5eee5; }

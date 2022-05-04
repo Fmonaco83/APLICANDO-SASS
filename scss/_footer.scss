@@ -18,13 +18,7 @@
         color: white;
        
     }
-    .iconos{
-        .bi-facebook, .bi-instagram, .bi-person-lines-fill{
-            text-align: center;
-            margin-left: 5px;
-            margin-right: 5px;
-            color: white;
-          }
+            
     .pago{
         display: flex;
         justify-content: start;
@@ -34,6 +28,25 @@
     
 
     }
+//MIXINS FOOTER
+@mixin ic{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: white;
+     &:hover{
+        color: &hover;
+     }
+ }
 
-
+ .bi-instagram {
+    @include ic;
 }
+.bi-facebook{
+    @include ic;
+}
+.bi-person-lines-fill{
+    @include ic;
+}
+ 
+
